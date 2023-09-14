@@ -100,4 +100,24 @@ print(arr)
 '''
 
 # to print the ranged value
-print(np.array(range(1,11)))
+# print(np.array(range(1,11)))
+
+# NumPy - Array From Numerical Ranges
+# syntax
+# numpy.arange(start, stop, step, dtype)
+
+# print(np.arange(1,10,5,int))
+
+# numpy.linspace
+# syntax
+# numpy.linspace(start, stop, num, endpoint, retstep, dtype)
+
+'''
+explanation for this linspace
+start -> The starting value of the sequence
+stop -> The end value of the sequence, included in the sequence if endpoint set to true
+num -> The number of evenly spaced samples to be generated. Default is 50
+endpoint -> True by default, hence the stop value is included in the sequence. If false, it is not included
+retstep -> If true, returns samples and step between the consecutive numbers
+dtype -> Data type of output ndarray
+'''
